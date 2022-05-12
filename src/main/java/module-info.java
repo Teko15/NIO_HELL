@@ -3,6 +3,6 @@ module ournio.nio_hell {
     requires javafx.fxml;
 
 
-    opens ournio.nio_hell to javafx.fxml;
-    exports ournio.nio_hell;
+    opens ournio to javafx.fxml;
+    exports ournio;
 }
